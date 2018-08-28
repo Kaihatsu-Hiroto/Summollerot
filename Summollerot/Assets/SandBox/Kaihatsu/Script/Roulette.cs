@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class Roulette : MonoBehaviour {
 
+    /// <summary>回転速度</summary>
     [SerializeField][Range(1f,5f)]
     private float m_angleSpeed;
-
-
-	// Use this for initialization
-	void Start () {
-        
-	}
 	
 	// Update is called once per frame
 	void Update () {

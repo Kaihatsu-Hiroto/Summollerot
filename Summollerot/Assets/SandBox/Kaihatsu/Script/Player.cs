@@ -8,6 +8,7 @@ public class Player : MonoBehaviour {
     [SerializeField][Range(0.1f,0.5f)]
     private float m_speed;
 
+    /// <summary>ジャンプ力</summary>
     [SerializeField][Range(300f,500f)]
     private float m_jumpPower;
 
@@ -34,16 +35,19 @@ public class Player : MonoBehaviour {
 
     private void Move(){
 
+        /// <summary>右キー入力中</summary>
         if (Input.GetKey(KeyCode.RightArrow)){
             transform.position += m_playerSpeed;
             m_spriteRenderer.flipX = false;
         }
 
+        /// <summary>左キー入力中</summary>
         if (Input.GetKey(KeyCode.LeftArrow)){
             transform.position -= m_playerSpeed;
             m_spriteRenderer.flipX = true;
         }
 
+        /// <summary>スペースキー入力時</summary>
         if (Input.GetKeyDown(KeyCode.Space)){
             if (m_isJumping){
                 m_rigidbody2D.AddForce(transform.up * m_jumpPower);
@@ -52,6 +56,7 @@ public class Player : MonoBehaviour {
         }
     }
 
+    //着地判定以外はジャンプ不可
     private void OnCollisionEnter2D(Collision2D arg_col){
         if (arg_col.collider.tag == "Ground"){
             m_isJumping = true;

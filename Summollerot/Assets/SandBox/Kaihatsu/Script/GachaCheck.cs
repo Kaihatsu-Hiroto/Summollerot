@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class GachaCheck : MonoBehaviour {
 
-    public void OnTriggerEnter2D(Collider2D arg_col)
-    {
+    public void OnTriggerEnter2D(Collider2D arg_col){
         Debug.Log(arg_col.tag);
     }
 }
