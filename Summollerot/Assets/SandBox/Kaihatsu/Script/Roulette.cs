@@ -5,7 +5,7 @@ using UnityEngine;
 public class Roulette : MonoBehaviour {
 
     /// <summary>回転速度</summary>
-    [SerializeField][Range(1f,5f)]
+    [SerializeField][Range(1f,10f)]
     private float m_angleSpeed;
 
     public bool isAngling = true;
