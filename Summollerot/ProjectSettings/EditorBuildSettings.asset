@@ -5,10 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/SandBox/Tsutida/Scenes/red.unity
-    guid: 456aeb748148d2d47af95e2abe3901dd
+    path: Assets/Main/MainScene/Title.unity
+    guid: 3cbdedafb9fdb484fa8e4d8aaad8259e
   - enabled: 1
-    path: Assets/SandBox/Tsutida/Scenes/green.unity
-    guid: 2e2fd1db9951d6843b99ea0a2fa0065c
+    path: Assets/Main/MainScene/Stage1.unity
+    guid: c4e8ab81edc43a4468fab0b997645da1
   m_configObjects: {}
