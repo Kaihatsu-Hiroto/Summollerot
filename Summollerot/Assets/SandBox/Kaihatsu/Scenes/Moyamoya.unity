@@ -113,6 +113,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &583632408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 583632410}
+  - component: {fileID: 583632409}
+  m_Layer: 0
+  m_Name: GachaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &583632409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583632408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd59811c55bf974bbdf036a3ff5a57a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gachaCheck: {fileID: 0}
+  roulette: {fileID: 0}
+  GachaCheckResult: 
+  RouletteActive: 0
+--- !u!4 &583632410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583632408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4474875, y: -0.7060338, z: -0.94140625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &958841462
 Prefab:
   m_ObjectHideFlags: 0
@@ -261,6 +305,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114889054749635108, guid: 4e913bbc1ae4afa4788fa22a914b4b8e,
+        type: 2}
+      propertyPath: m_camera
+      value: 
+      objectReference: {fileID: 1541510705}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e913bbc1ae4afa4788fa22a914b4b8e, type: 2}
   m_IsPrefabAsset: 0
