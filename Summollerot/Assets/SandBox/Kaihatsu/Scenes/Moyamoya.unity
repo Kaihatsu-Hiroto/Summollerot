@@ -140,6 +140,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd59811c55bf974bbdf036a3ff5a57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gachaCheck: {fileID: 0}
+  roulette: {fileID: 0}
+  GachaCheckResult: 
+  RouletteActive: 0
 --- !u!4 &583632410
 Transform:
   m_ObjectHideFlags: 0
@@ -301,6 +305,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114889054749635108, guid: 4e913bbc1ae4afa4788fa22a914b4b8e,
+        type: 2}
+      propertyPath: m_camera
+      value: 
+      objectReference: {fileID: 1541510705}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e913bbc1ae4afa4788fa22a914b4b8e, type: 2}
   m_IsPrefabAsset: 0

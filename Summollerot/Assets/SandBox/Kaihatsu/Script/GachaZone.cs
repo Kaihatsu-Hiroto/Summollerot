@@ -8,9 +8,18 @@ public class GachaZone : MonoBehaviour {
     private float m_deleatTime;
 
     public Roulette m_roulette;
-	
-	// Update is called once per frame
-	void Update () {
+
+    private GameObject m_camera;
+
+    private void Start(){
+        if (!m_camera)
+            m_camera = GameObject.Find("Main Camera");
+    }
+
+    // Update is called once per frame
+    void Update () {
+        transform.position = m_camera.transform.position;
+
         if (!m_roulette.isAngling)
             StartCoroutine("DestroyRolette");
 	}

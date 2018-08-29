@@ -10,6 +10,4 @@ public class StopButton : MonoBehaviour {
     public void OnClick(){
         m_roulette.isAngling = false;
     }
-
-
 }
