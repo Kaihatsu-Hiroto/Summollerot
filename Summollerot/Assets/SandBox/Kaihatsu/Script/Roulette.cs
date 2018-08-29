@@ -10,10 +10,11 @@ public class Roulette : MonoBehaviour {
 
     private Rigidbody2D m_rigidbody2D;
 
-    public bool isAngling = true;
+    public bool isAngling;
 
     private void Start(){
         m_rigidbody2D = GetComponent<Rigidbody2D>();
+        isAngling = true;
     }
 
     // Update is called once per frame

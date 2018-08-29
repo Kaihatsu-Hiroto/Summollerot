@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 50526518317889940}
   - component: {fileID: 68339055818558366}
   m_Layer: 0
-  m_Name: hari
+  m_Name: GachaChecker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,6 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6147d086443ca945b3acf2f92978021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentGachaResult: 
 --- !u!114 &114349319306586650
 MonoBehaviour:
   m_ObjectHideFlags: 1
