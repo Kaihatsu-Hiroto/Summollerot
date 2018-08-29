@@ -22,5 +22,11 @@ public class Roulette : MonoBehaviour {
         if (isAngling) {
             transform.eulerAngles += new Vector3(0, 0, m_angleSpeed);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+            isAngling = false;
+        
+
+            
     }
 }
