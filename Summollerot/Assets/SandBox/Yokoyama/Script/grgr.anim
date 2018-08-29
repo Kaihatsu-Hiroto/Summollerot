@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Nenn
+  m_Name: grgr
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -18,15 +18,19 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 3.3333333
-      value: {fileID: 21300000, guid: 32dd1546ce5f78342b87fa6425df8c48, type: 3}
-    - time: 3.6666667
-      value: {fileID: 21300000, guid: f27f49b017787424f8392fbd95e04f7c, type: 3}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 040511dd31589c844b87312af119550b, type: 3}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: b33b799c0134def49a31aac3ffeb8c0f, type: 3}
+    - time: 1
+      value: {fileID: 21300000, guid: d2a52ef0d9f7d5a488cce2881b272653, type: 3}
+    - time: 1.3333334
+      value: {fileID: 21300000, guid: b33b799c0134def49a31aac3ffeb8c0f, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 3
+  m_SampleRate: 6
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -41,14 +45,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 32dd1546ce5f78342b87fa6425df8c48, type: 3}
-    - {fileID: 21300000, guid: f27f49b017787424f8392fbd95e04f7c, type: 3}
+    - {fileID: 21300000, guid: 040511dd31589c844b87312af119550b, type: 3}
+    - {fileID: 21300000, guid: b33b799c0134def49a31aac3ffeb8c0f, type: 3}
+    - {fileID: 21300000, guid: d2a52ef0d9f7d5a488cce2881b272653, type: 3}
+    - {fileID: 21300000, guid: b33b799c0134def49a31aac3ffeb8c0f, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 4
+    m_StopTime: 1.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
