@@ -4,7 +4,16 @@ using UnityEngine;
 
 public class GachaCheck : MonoBehaviour {
 
+    public string currentGachaResult;
     public void OnTriggerEnter2D(Collider2D arg_col){
-        Debug.Log(arg_col.tag);
+        if (arg_col.tag == "N"){
+            currentGachaResult = arg_col.tag;
+        }
+        if (arg_col.tag == "R"){
+            currentGachaResult = arg_col.tag;
+        }
+        if (arg_col.tag == "SR"){
+            currentGachaResult = arg_col.tag;
+        }
     }
 }

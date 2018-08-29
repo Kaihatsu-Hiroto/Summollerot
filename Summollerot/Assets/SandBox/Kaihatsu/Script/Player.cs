@@ -47,8 +47,8 @@ public class Player : MonoBehaviour {
             m_spriteRenderer.flipX = true;
         }
 
-        /// <summary>スペースキー入力時</summary>
-        if (Input.GetKeyDown(KeyCode.Space)){
+        /// <summary>上キー入力時</summary>
+        if (Input.GetKeyDown(KeyCode.UpArrow)){
             if (m_isJumping){
                 m_rigidbody2D.AddForce(transform.up * m_jumpPower);
                 m_isJumping = false;
