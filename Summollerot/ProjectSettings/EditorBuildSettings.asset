@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/SandBox/Tsutida/Scenes/red.unity
+    guid: 456aeb748148d2d47af95e2abe3901dd
+  - enabled: 1
+    path: Assets/SandBox/Tsutida/Scenes/green.unity
+    guid: 2e2fd1db9951d6843b99ea0a2fa0065c
   m_configObjects: {}

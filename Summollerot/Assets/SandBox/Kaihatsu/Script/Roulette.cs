@@ -8,11 +8,25 @@ public class Roulette : MonoBehaviour {
     [SerializeField][Range(1f,10f)]
     private float m_angleSpeed;
 
-    public bool isAngling = true;
-	
-	// Update is called once per frame
-	void Update () {
-        if(isAngling)
-        transform.eulerAngles += new Vector3(0,0,m_angleSpeed);
+    private Rigidbody2D m_rigidbody2D;
+
+    public bool isAngling;
+
+    private void Start(){
+        m_rigidbody2D = GetComponent<Rigidbody2D>();
+        isAngling = true;
+    }
+
+    // Update is called once per frame
+    void Update () {
+        if (isAngling) {
+            transform.eulerAngles += new Vector3(0, 0, m_angleSpeed);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+            isAngling = false;
+        
+
+            
     }
 }
